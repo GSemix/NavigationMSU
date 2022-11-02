@@ -7,18 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13A0B5AE3D351CDCEBCA102C /* Pods_NavigationMSU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE58801D0506F2BB5B08243F /* Pods_NavigationMSU.framework */; };
 		931140EB28AA704D00784E43 /* NavigationMSUApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931140EA28AA704D00784E43 /* NavigationMSUApp.swift */; };
 		931140ED28AA704D00784E43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931140EC28AA704D00784E43 /* ContentView.swift */; };
 		931140EF28AA705100784E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931140EE28AA705100784E43 /* Assets.xcassets */; };
 		931140F228AA705100784E43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931140F128AA705100784E43 /* Preview Assets.xcassets */; };
+		931140F928AA729E00784E43 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931140F828AA729E00784E43 /* TabBarView.swift */; };
+		931140FB28AA737100784E43 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931140FA28AA737100784E43 /* Extensions.swift */; };
+		931140FD28AA785A00784E43 /* StylesModificatorsShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931140FC28AA785A00784E43 /* StylesModificatorsShapes.swift */; };
+		931140FF28AA806B00784E43 /* SearchLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931140FE28AA806B00784E43 /* SearchLine.swift */; };
+		9311410128AABBDF00784E43 /* ZoomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9311410028AABBDF00784E43 /* ZoomButtons.swift */; };
+		9311410328AABC6600784E43 /* GrayLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9311410228AABC6600784E43 /* GrayLine.swift */; };
+		9311410528AAC2BB00784E43 /* FastChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9311410428AAC2BB00784E43 /* FastChoice.swift */; };
+		934A2DBB28C1228700B7A789 /* SelectedRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934A2DBA28C1228600B7A789 /* SelectedRoutes.swift */; };
+		934A2DBD28C12A7C00B7A789 /* PinchZoomLikeGallary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934A2DBC28C12A7C00B7A789 /* PinchZoomLikeGallary.swift */; };
+		934A2DBF28C12A9500B7A789 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934A2DBE28C12A9500B7A789 /* MapView.swift */; };
+		934A2DD928C3939100B7A789 /* map.svg in Resources */ = {isa = PBXBuildFile; fileRef = 934A2DD828C3939100B7A789 /* map.svg */; };
+		934A2DDB28C4E5BA00B7A789 /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934A2DDA28C4E5BA00B7A789 /* StartPage.swift */; };
+		93F751A828F9DCE900DFFE28 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F751A728F9DCE900DFFE28 /* PopupView.swift */; };
+		93F751AA28F9DD4400DFFE28 /* SheetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F751A928F9DD4400DFFE28 /* SheetManager.swift */; };
+		93F751AC28F9DD7E00DFFE28 /* PopupViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F751AB28F9DD7E00DFFE28 /* PopupViewModifier.swift */; };
+		93F751AF28FD9A4000DFFE28 /* WebViewNavigationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F751AE28FD9A4000DFFE28 /* WebViewNavigationAction.swift */; };
+		93F751B128FD9A6900DFFE28 /* URLType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F751B028FD9A6900DFFE28 /* URLType.swift */; };
+		93F751B328FD9A7300DFFE28 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F751B228FD9A7300DFFE28 /* WebView.swift */; };
+		93F751B528FD9A7A00DFFE28 /* WebNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F751B428FD9A7A00DFFE28 /* WebNavigationView.swift */; };
+		93F751B728FD9A8100DFFE28 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F751B628FD9A8100DFFE28 /* ViewModel.swift */; };
+		93F751B928FD9A8A00DFFE28 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F751B828FD9A8A00DFFE28 /* LoaderView.swift */; };
+		93F751BB28FD9A9000DFFE28 /* JSUserScripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F751BA28FD9A9000DFFE28 /* JSUserScripts.swift */; };
+		93F751BD28FD9AC500DFFE28 /* Site in Resources */ = {isa = PBXBuildFile; fileRef = 93F751BC28FD9AC500DFFE28 /* Site */; };
+		93F751BF28FDAC6300DFFE28 /* Floors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F751BE28FDAC6300DFFE28 /* Floors.swift */; };
+		93F751C52901A27900DFFE28 /* newMap.svg in Resources */ = {isa = PBXBuildFile; fileRef = 93F751C42901A27900DFFE28 /* newMap.svg */; };
+		93F751C72901A42F00DFFE28 /* origMap.svg in Resources */ = {isa = PBXBuildFile; fileRef = 93F751C62901A42F00DFFE28 /* origMap.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F7163E980987E1969814D9C /* Pods-NavigationMSU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationMSU.debug.xcconfig"; path = "Target Support Files/Pods-NavigationMSU/Pods-NavigationMSU.debug.xcconfig"; sourceTree = "<group>"; };
+		914625BD24E7696DF4AFCC03 /* Pods-NavigationMSU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationMSU.release.xcconfig"; path = "Target Support Files/Pods-NavigationMSU/Pods-NavigationMSU.release.xcconfig"; sourceTree = "<group>"; };
 		931140E728AA704D00784E43 /* NavigationMSU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationMSU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		931140EA28AA704D00784E43 /* NavigationMSUApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMSUApp.swift; sourceTree = "<group>"; };
 		931140EC28AA704D00784E43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		931140EE28AA705100784E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		931140F128AA705100784E43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		931140F828AA729E00784E43 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		931140FA28AA737100784E43 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		931140FC28AA785A00784E43 /* StylesModificatorsShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylesModificatorsShapes.swift; sourceTree = "<group>"; };
+		931140FE28AA806B00784E43 /* SearchLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLine.swift; sourceTree = "<group>"; };
+		9311410028AABBDF00784E43 /* ZoomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomButtons.swift; sourceTree = "<group>"; };
+		9311410228AABC6600784E43 /* GrayLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayLine.swift; sourceTree = "<group>"; };
+		9311410428AAC2BB00784E43 /* FastChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastChoice.swift; sourceTree = "<group>"; };
+		934A2DBA28C1228600B7A789 /* SelectedRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedRoutes.swift; sourceTree = "<group>"; };
+		934A2DBC28C12A7C00B7A789 /* PinchZoomLikeGallary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchZoomLikeGallary.swift; sourceTree = "<group>"; };
+		934A2DBE28C12A9500B7A789 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		934A2DD828C3939100B7A789 /* map.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = map.svg; path = ../../../../SVG/map.svg; sourceTree = "<group>"; };
+		934A2DDA28C4E5BA00B7A789 /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
+		93F751A728F9DCE900DFFE28 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		93F751A928F9DD4400DFFE28 /* SheetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetManager.swift; sourceTree = "<group>"; };
+		93F751AB28F9DD7E00DFFE28 /* PopupViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewModifier.swift; sourceTree = "<group>"; };
+		93F751AE28FD9A4000DFFE28 /* WebViewNavigationAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewNavigationAction.swift; sourceTree = "<group>"; };
+		93F751B028FD9A6900DFFE28 /* URLType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLType.swift; sourceTree = "<group>"; };
+		93F751B228FD9A7300DFFE28 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		93F751B428FD9A7A00DFFE28 /* WebNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebNavigationView.swift; sourceTree = "<group>"; };
+		93F751B628FD9A8100DFFE28 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		93F751B828FD9A8A00DFFE28 /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		93F751BA28FD9A9000DFFE28 /* JSUserScripts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSUserScripts.swift; sourceTree = "<group>"; };
+		93F751BC28FD9AC500DFFE28 /* Site */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Site; sourceTree = "<group>"; };
+		93F751BE28FDAC6300DFFE28 /* Floors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floors.swift; sourceTree = "<group>"; };
+		93F751C42901A27900DFFE28 /* newMap.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = newMap.svg; sourceTree = "<group>"; };
+		93F751C62901A42F00DFFE28 /* origMap.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = origMap.svg; sourceTree = "<group>"; };
+		AE58801D0506F2BB5B08243F /* Pods_NavigationMSU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationMSU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +82,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13A0B5AE3D351CDCEBCA102C /* Pods_NavigationMSU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67482DBDCE7FD760474DA356 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F7163E980987E1969814D9C /* Pods-NavigationMSU.debug.xcconfig */,
+				914625BD24E7696DF4AFCC03 /* Pods-NavigationMSU.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8F72B8E92977228024CA7C6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE58801D0506F2BB5B08243F /* Pods_NavigationMSU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		931140DE28AA704D00784E43 = {
 			isa = PBXGroup;
 			children = (
 				931140E928AA704D00784E43 /* NavigationMSU */,
 				931140E828AA704D00784E43 /* Products */,
+				67482DBDCE7FD760474DA356 /* Pods */,
+				8F72B8E92977228024CA7C6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +127,17 @@
 		931140E928AA704D00784E43 /* NavigationMSU */ = {
 			isa = PBXGroup;
 			children = (
-				931140EA28AA704D00784E43 /* NavigationMSUApp.swift */,
+				93F751A528F9DC7000DFFE28 /* Model */,
+				93F751A328F9DC2800DFFE28 /* UIKit */,
+				93F751A228F9DC0200DFFE28 /* Helpers */,
+				93F751A628F9DCA700DFFE28 /* View */,
+				93F751AD28FD9A2300DFFE28 /* WebView */,
+				93F751BC28FD9AC500DFFE28 /* Site */,
 				931140EC28AA704D00784E43 /* ContentView.swift */,
+				931140EA28AA704D00784E43 /* NavigationMSUApp.swift */,
+				93F751C62901A42F00DFFE28 /* origMap.svg */,
+				93F751C42901A27900DFFE28 /* newMap.svg */,
+				934A2DD828C3939100B7A789 /* map.svg */,
 				931140EE28AA705100784E43 /* Assets.xcassets */,
 				931140F028AA705100784E43 /* Preview Content */,
 			);
@@ -67,6 +152,63 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		93F751A228F9DC0200DFFE28 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				93F751AB28F9DD7E00DFFE28 /* PopupViewModifier.swift */,
+				931140FC28AA785A00784E43 /* StylesModificatorsShapes.swift */,
+				931140FA28AA737100784E43 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		93F751A328F9DC2800DFFE28 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				934A2DBC28C12A7C00B7A789 /* PinchZoomLikeGallary.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		93F751A528F9DC7000DFFE28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				93F751A928F9DD4400DFFE28 /* SheetManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93F751A628F9DCA700DFFE28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93F751A728F9DCE900DFFE28 /* PopupView.swift */,
+				931140FE28AA806B00784E43 /* SearchLine.swift */,
+				9311410028AABBDF00784E43 /* ZoomButtons.swift */,
+				9311410228AABC6600784E43 /* GrayLine.swift */,
+				9311410428AAC2BB00784E43 /* FastChoice.swift */,
+				934A2DBA28C1228600B7A789 /* SelectedRoutes.swift */,
+				934A2DBE28C12A9500B7A789 /* MapView.swift */,
+				934A2DDA28C4E5BA00B7A789 /* StartPage.swift */,
+				931140F828AA729E00784E43 /* TabBarView.swift */,
+				93F751B828FD9A8A00DFFE28 /* LoaderView.swift */,
+				93F751BE28FDAC6300DFFE28 /* Floors.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93F751AD28FD9A2300DFFE28 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				93F751AE28FD9A4000DFFE28 /* WebViewNavigationAction.swift */,
+				93F751B028FD9A6900DFFE28 /* URLType.swift */,
+				93F751B228FD9A7300DFFE28 /* WebView.swift */,
+				93F751B428FD9A7A00DFFE28 /* WebNavigationView.swift */,
+				93F751B628FD9A8100DFFE28 /* ViewModel.swift */,
+				93F751BA28FD9A9000DFFE28 /* JSUserScripts.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 931140F528AA705100784E43 /* Build configuration list for PBXNativeTarget "NavigationMSU" */;
 			buildPhases = (
+				31B175ED9CFEB5EF2A5D8910 /* [CP] Check Pods Manifest.lock */,
 				931140E328AA704D00784E43 /* Sources */,
 				931140E428AA704D00784E43 /* Frameworks */,
 				931140E528AA704D00784E43 /* Resources */,
+				256885BE717D4EB2FD1B8775 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +269,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F751C72901A42F00DFFE28 /* origMap.svg in Resources */,
+				93F751C52901A27900DFFE28 /* newMap.svg in Resources */,
+				934A2DD928C3939100B7A789 /* map.svg in Resources */,
+				93F751BD28FD9AC500DFFE28 /* Site in Resources */,
 				931140F228AA705100784E43 /* Preview Assets.xcassets in Resources */,
 				931140EF28AA705100784E43 /* Assets.xcassets in Resources */,
 			);
@@ -132,13 +280,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		256885BE717D4EB2FD1B8775 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavigationMSU/Pods-NavigationMSU-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavigationMSU/Pods-NavigationMSU-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NavigationMSU/Pods-NavigationMSU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31B175ED9CFEB5EF2A5D8910 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavigationMSU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		931140E328AA704D00784E43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F751AC28F9DD7E00DFFE28 /* PopupViewModifier.swift in Sources */,
+				93F751B928FD9A8A00DFFE28 /* LoaderView.swift in Sources */,
+				93F751B128FD9A6900DFFE28 /* URLType.swift in Sources */,
+				931140FF28AA806B00784E43 /* SearchLine.swift in Sources */,
+				93F751BF28FDAC6300DFFE28 /* Floors.swift in Sources */,
+				934A2DDB28C4E5BA00B7A789 /* StartPage.swift in Sources */,
+				934A2DBF28C12A9500B7A789 /* MapView.swift in Sources */,
+				931140FD28AA785A00784E43 /* StylesModificatorsShapes.swift in Sources */,
+				93F751AA28F9DD4400DFFE28 /* SheetManager.swift in Sources */,
+				934A2DBB28C1228700B7A789 /* SelectedRoutes.swift in Sources */,
 				931140ED28AA704D00784E43 /* ContentView.swift in Sources */,
+				931140F928AA729E00784E43 /* TabBarView.swift in Sources */,
+				93F751A828F9DCE900DFFE28 /* PopupView.swift in Sources */,
+				9311410528AAC2BB00784E43 /* FastChoice.swift in Sources */,
+				93F751BB28FD9A9000DFFE28 /* JSUserScripts.swift in Sources */,
+				93F751AF28FD9A4000DFFE28 /* WebViewNavigationAction.swift in Sources */,
+				93F751B728FD9A8100DFFE28 /* ViewModel.swift in Sources */,
+				93F751B328FD9A7300DFFE28 /* WebView.swift in Sources */,
+				9311410328AABC6600784E43 /* GrayLine.swift in Sources */,
+				93F751B528FD9A7A00DFFE28 /* WebNavigationView.swift in Sources */,
 				931140EB28AA704D00784E43 /* NavigationMSUApp.swift in Sources */,
+				931140FB28AA737100784E43 /* Extensions.swift in Sources */,
+				9311410128AABBDF00784E43 /* ZoomButtons.swift in Sources */,
+				934A2DBD28C12A7C00B7A789 /* PinchZoomLikeGallary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +473,7 @@
 		};
 		931140F628AA705100784E43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F7163E980987E1969814D9C /* Pods-NavigationMSU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +503,7 @@
 		};
 		931140F728AA705100784E43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 914625BD24E7696DF4AFCC03 /* Pods-NavigationMSU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct NavigationMSUApp: App {
+    @StateObject var viewRouter = ViewRouter()
+    @StateObject var sheetManager: SheetManager = SheetManager()
+    @StateObject var viewModel = ViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GeometryReader { geometry in
+                ContentView(viewRouter: viewRouter, safeAreaTop: geometry.safeAreaInsets.top, safeAreaBottom: geometry.safeAreaInsets.bottom, viewModel: viewModel)
+                    .environmentObject(sheetManager)
+            }
         }
     }
 }

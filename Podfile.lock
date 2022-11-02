@@ -1,0 +1,20 @@
+PODS:
+  - ExytePopupView (1.1.5)
+  - SVGView (1.0.2)
+
+DEPENDENCIES:
+  - ExytePopupView
+  - SVGView
+
+SPEC REPOS:
+  trunk:
+    - ExytePopupView
+    - SVGView
+
+SPEC CHECKSUMS:
+  ExytePopupView: 668332226445ba79cec01a83db42a5e0c4fcde34
+  SVGView: 116dd9db20362f3403fce945934939c1b321d3f9
+
+PODFILE CHECKSUM: 0c81de09ae779d2648de57926d78650efb6ef6c5
+
+COCOAPODS: 1.11.2
